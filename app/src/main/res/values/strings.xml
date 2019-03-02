@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">s4n</string>
+    <string name="headacheTxt">¿Sufre de dolor de cabeza?</string>
+    <string name="ageTxt">¿Tiene entre 20 y 30 años?</string>
+    <string name="genderTxt">¿Género?</string>
+    <string name="alcoholTxt">¿Bebe alcohol regularmente?</string>
+    <string name="resultTxt">Su probabilidad de padecer Síndrome de Kann es de:</string>
+    <string name="bt_Verify">Verificar</string>
+    <string name="bad_age">Este campo debe ser un número</string>
+
+    <string-array name="gender_array">
+        <item>MASCULINO</item>
+        <item>FEMENINO</item>
+    </string-array>
+
+    <string-array name="yes_not_array">
+        <item>NO</item>
+        <item>SÍ</item>
+    </string-array>
+</resources>

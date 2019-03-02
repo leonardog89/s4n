@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyResponsability.MainActivity"
+    android:padding="10dp">
+
+        <LinearLayout
+                android:id="@+id/ly_principal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/headacheTxt"/>
+
+                <Spinner
+                        android:id="@+id/spinnerHeadache"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                </Spinner>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/ageTxt"/>
+
+                <Spinner
+                        android:id="@+id/spinnerAge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                </Spinner>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/genderTxt"/>
+
+                <Spinner
+                        android:id="@+id/spinnerGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="@string/alcoholTxt"/>
+
+                <Spinner
+                        android:id="@+id/spinnerAlcohol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                </Spinner>
+
+            </LinearLayout>
+            <Button
+                    android:id="@+id/bt_Evaluator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bt_Verify"
+
+            />
+
+            <LinearLayout
+                    android:id="@+id/ly_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            >
+
+                <TextView
+                        android:id="@+id/tv_result"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
